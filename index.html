@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Accessibility Issues Example</title>
+  </head>
+  <body>
+    <h1>Accessibility Issues Example</h1>
+
+    <h2>Image without Alternative Text</h2>
+    <img src="person-in-wheelchair.jpg" alt="" />
+
+    <h2>Non-Descriptive Link Text</h2>
+    <a href="#">Click Here</a>
+
+    <h2>Missing Form Labels</h2>
+    <form>
+      <input type="text" name="username" />
+      <input type="password" name="password" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>Low Contrast Text</h2>
+    <p style="color: #666">This text has low contrast with the background.</p>
+
+    <h2>Table without Headers</h2>
+    <table>
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+      </tr>
+      <tr>
+        <td>Cell 3</td>
+        <td>Cell 4</td>
+      </tr>
+    </table>
+
+    <h2>Using Color Alone to Convey Information</h2>
+    <p style="color: red">This text is required.</p>
+
+    <h2>Missing Alternative Text on Image within Link</h2>
+    <a href="#">
+      <img src="person-in-wheelchair.png" />
+    </a>
+
+    <h2>Unclear Form Instructions</h2>
+    <form>
+      <label>First Name:</label>
+      <input type="text" />
+      <label>Last Name:</label>
+      <input type="text" />
+      <label>Phone Number:</label>
+      <input type="text" />
+    </form>
+
+    <h2>Using Non-Semantic HTML Elements</h2>
+    <div>Text that should be in a paragraph element</div>
+
+    <h2>Using JavaScript to Change Focus without Notification</h2>
+    <button onclick="document.getElementById('textbox').focus()">
+      Focus Textbox
+    </button>
+    <input type="text" id="textbox" />
+  </body>
+</html>

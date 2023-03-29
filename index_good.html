@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Accessibility Testing Template</title>
+  </head>
+  <body>
+    <h1>Accessibility Testing Template</h1>
+
+    <h2>Testing Focus Management</h2>
+    <label for="input1">Input 1:</label>
+    <input type="text" id="input1" tabindex="1" />
+
+    <label for="input2">Input 2:</label>
+    <input type="text" id="input2" tabindex="2" />
+
+    <h2>Testing Landmarks</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </nav>
+
+    <h2>Testing Headings</h2>
+    <h1>Main Heading</h1>
+    <h2>Subheading 1</h2>
+    <h3>Subheading 2</h3>
+
+    <h2>Testing Forms</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>Testing Color Contrast</h2>
+    <p style="color: #999">This text has low contrast with the background.</p>
+
+    <h2>Testing Images</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+
+    <h2>Testing Links</h2>
+    <p>This is a <a href="#">link</a>.</p>
+
+    <h2>Testing Lists</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>
