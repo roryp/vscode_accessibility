@@ -40,3 +40,7 @@ To address these common HTML accessibility issues, consider the following soluti
 -   **Ensure sufficient color contrast:** Make sure that all text and other content on a web page has sufficient color contrast. This can be achieved by using a color contrast checker tool to check the contrast ratio between the text and its background. The contrast ratio should be at least 4.5:1 for normal text and 3:1 for large text.
     
 -   **Design accessible forms:** Ensure that all interactive elements on a web page can be accessed and used with a keyboard. This includes making sure that users can navigate through the web page using the Tab key, and that they can activate interactive elements (such as buttons) using the Enter or Space keys. Use appropriate labels and instructions for form elements to ensure that users can understand their purpose.
+
+### Running @axe-core/playwright for accessibility testing
+
+To use the `@axe-core/playwright` npm package, install node and run "node test.js"
