@@ -20,24 +20,21 @@
 - **Robust:** Compatibility with various screen readers, "Editor: Accessibility Support" setting for future tech, Accessibility Inspection Tools for UI.
 
 ## Demo 3 - Coding demo
-Visit [roryp/livestream](https://github.com/roryp/livestream) on GitHub for details.
+
 1. **Axe Linter extension in VS Code:**
     - Install the Axe linter extension in Visual Studio Code.
     - Demonstrate how it catches accessibility issues during coding.
 2. **Demo Good and Bad HTML Files:**
-    - Create two HTML files, one with good accessibility practices and another with bad ones.
+    - Using the two HTML files, one with good accessibility practices and another with bad ones.
     - Show the differences and the issues caught by the Axe linter extension.
 3. **Scan Good and Bad HTML files with Accessibility Insights:**
     - Open both files in your browser.
     - Run Accessibility Insights on both files to compare issues.
 4. **Automate Accessibility Testing with Playwright and Axe Core:**
-    - Import the Axe Playwright engine in a JavaScript file.
-    - Write a script to open Chromium browser, navigate to the Washington site, and run accessibility tests using Axe Core.
+    - Run the test.js file to run accessibility tests using Axe Core.
+        npm install
+        node test.js
     - Log the results in the console.
-5. **Debug the JavaScript File in VS Code:**
-    - Set up debugging in Visual Studio Code for the JavaScript file.
-    - Run the script and observe the issues found in the debug console.
-    - Compare these results with those obtained from Accessibility Insights.
 
 ## Demo 4 – Using AI to help test (Bing, Copilot and A11ybot)
 Learn more about using AI to assist in testing [here](https://github.com/sinedied/a11y-ai).
