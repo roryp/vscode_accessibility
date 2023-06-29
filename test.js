@@ -5,7 +5,7 @@ const playwright = require('playwright');
   const browser = await playwright.chromium.launch();
   const context = await browser.newContext();
   const page = await context.newPage();
-  await page.goto('https://dequeuniversity.com/demo/mars/');
+  await page.goto('https://www.washington.edu/accesscomputing/AU/before.html');
 
   try {
     const results = await new AxeBuilder({ page }).analyze();
